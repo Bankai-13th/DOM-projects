@@ -25,6 +25,7 @@
             // conditional rendering
             if (obj.cost == "" || obj.sell == "") {
                 def.innerHTML = "Provide all data"
+                 Percent.innerText =""
             } else if (result > 0) {
                 def.innerHTML = "Profit Percentage "
                 Percent.innerText = result + "%"
